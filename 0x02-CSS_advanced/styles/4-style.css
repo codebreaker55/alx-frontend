@@ -1,8 +1,3 @@
-/* making the behavior of the scroll to be as fluid as possible. */
-html {
-	scroll-behavior: smooth;
-}
-
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -12,6 +7,11 @@ html {
 	--text-color: var(--color-black);
 	--font-family-base: "Helvetica Neue", "Helvetica, Arial", sans-serif;
 	--font-family-title: "Helvetica Neue", "Helvetica, Arial", sans-serif;
+}
+
+/* making the behavior of the scroll to be as fluid as possible. */
+html {
+        scroll-behavior: smooth;
 }
 
 body {
