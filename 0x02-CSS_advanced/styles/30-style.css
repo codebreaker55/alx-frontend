@@ -323,7 +323,7 @@ ul.row {
 
 .card-work .card-outer {
 	position: relative;
-	overflow: hide;
+	overflow: hidden;
 }
 
 .card-work .card-image img {
@@ -341,7 +341,7 @@ ul.row {
 	z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
 	 background-color: rgba(0, 0, 0, 0.7);
  }
 
